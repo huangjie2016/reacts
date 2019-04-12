@@ -13,7 +13,7 @@ export default class Mount extends React.Component {
                 value: 'getDerivedStateFromProps'
             }
         }
-        return true
+        return true;
     }
 
     shouldComponentUpdate(props, state){
