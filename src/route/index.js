@@ -1,5 +1,6 @@
 import React from 'react';
 import {Switch, Route} from "react-router-dom";
+import asyncComponent from '../lazy';
 
 import Home2 from '../pages/Home2';
 import OnePage from '../pages/OnePage';
@@ -7,7 +8,8 @@ import TwoPage from '../pages/TwoPage';
 import This from '../pages/This';
 import Mount from '../pages/Mount';
 import HooksTest1 from '../hooks/test1';
-import HooksUseState from '../hooks/useState';
+//import HooksUseState from '../hooks/useState';
+const HooksUseState = asyncComponent(() => import ('../hooks/useState'));
 
 const Routers = (
     <Switch>
