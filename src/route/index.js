@@ -6,6 +6,8 @@ import OnePage from '../pages/OnePage';
 import TwoPage from '../pages/TwoPage';
 import This from '../pages/This';
 import Mount from '../pages/Mount';
+import HooksTest1 from '../hooks/test1';
+import HooksUseState from '../hooks/useState';
 
 const Routers = (
     <Switch>
@@ -14,6 +16,8 @@ const Routers = (
         <Route path="/twoPage/:id" component={TwoPage} />
         <Route path="/this" component={This} />
         <Route path="/mount"  component={Mount} />
+        <Route path="/hooksTest1" component={HooksTest1} />
+        <Route path="/hooksUseState" component={HooksUseState} />
     </Switch>
 );
 
