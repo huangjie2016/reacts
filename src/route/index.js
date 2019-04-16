@@ -9,6 +9,7 @@ import This from '../pages/This';
 import Mount from '../pages/Mount';
 import HooksTest1 from '../hooks/test1';
 import AxiosTest from '../pages/AxiosTest';
+import Refs from '../pages/Ref';
 //import HooksUseState from '../hooks/useState';
 const HooksUseState = asyncComponent(() => import ('../hooks/useState'));
 
@@ -22,6 +23,7 @@ const Routers = (
         <Route path="/mount"  component={Mount} />
         <Route path="/hooksTest1" component={HooksTest1} />
         <Route path="/axiosTest" component={AxiosTest} />
+        <Route path="/refs" component={Refs} />
         <Route path="/hooksUseState" component={HooksUseState} />
     </Switch>
 );
