@@ -15,9 +15,9 @@ class App extends Component {
             className="App-"
             href="https://reactjs.org"
             target="_blank"
-            rel="noopener noreferr"
+            rel="noopener norefe"
           >
-            Learn React
+            Learn React 1-21
           </a>
         </header>
       </div>
